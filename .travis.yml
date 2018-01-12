@@ -16,7 +16,7 @@ before_install:
 
 install:
   - pip install .
-  - python -m nalaf.download_corpora
+  - python -m nalaf.download_data
 
 script:
   - nosetests -a \"!slow\" --with-coverage
